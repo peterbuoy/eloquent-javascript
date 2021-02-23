@@ -1,3 +1,5 @@
+// Program makes an size x size chessboard with octothorpes
+
 let size = 8;
 let string = "#";
 // Probably could have used repeat but that wasn't covered yet.
