@@ -1,3 +1,9 @@
+// Implements functions that allow list operations such as
+// turning an array into a list,
+// turning a list into an array,
+// prepending, value to the list,
+// and finding the nth value in a list.
+
 function arrayToList(array) {
   let list = {value: array.pop(), rest: null}; // init last value
   // console.log(list);

@@ -1,3 +1,7 @@
+// Compares if two objects are equal
+// Objects may have nested properties
+// Remark: null is not accounted for in this code
+
 function deepEqual (objA, objB) {
   if (objA === objB) return true;
   if (typeof objA != "object" || typeof objB != "object") return false;

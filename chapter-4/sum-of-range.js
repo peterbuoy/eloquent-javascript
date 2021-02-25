@@ -1,3 +1,7 @@
+// This program implements the range function that returns an array
+// of numbers within a range while allowing for pos/neg steps.
+// It also allows you to sum the values of an array.
+
 function range(start, end, step = 1) {
   array = [];
   if (step < 0) {

@@ -1,3 +1,6 @@
+// Reverses an array by returning a reversed copy
+// or reversing an array in place
+
 function reverseArray(array) {
   rArray = [];
   for (let i = array.length - 1; i >= 0; i--) {
